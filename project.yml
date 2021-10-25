@@ -1,4 +1,4 @@
-name: REPLACE_PROJECT_NAME #FIXME
+name: TemplateSample #FIXME
 packages:
   CombineCocoa:
     url: https://github.com/CombineCommunity/CombineCocoa
@@ -14,7 +14,7 @@ configs:
   Staging: release
   Release: release
 options:
-  bundleIdPrefix: REPLACE_BUNDLE_ID_PREFIX #FIXME
+  bundleIdPrefix: com.lsg.template #FIXME
   findCarthageFrameworks: true
   deploymentTarget:
     iOS: 13.0
@@ -90,7 +90,7 @@ targets:
     settings:
       FRAMEWORK_SEARCH_PATHS: 
         - $(inherited)
-      DEVELOPMENT_TEAM: ABCDE12345  #FIXME
+      DEVELOPMENT_TEAM: SDDM52ZQBR  #FIXME
   ApplicationTests:
     type: bundle.unit-test
     platform: iOS
